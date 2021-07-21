@@ -65,6 +65,21 @@
   "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia. The Militia learns who the recruit is that night. [+1 Outsider]"
 },
 {
+  "id": "red riding hood",
+  "image": "",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Red Riding Hood",
+  "team": "townsfolk",
+  "ability": "Minion abilities do not work on you."
+},
+{
   "id": "sapper",
   "image": "",
   "edition": "custom",
