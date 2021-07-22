@@ -50,17 +50,17 @@
   "ability": "Once per game at night*, your two alive townsfolk neighbors cannot die tonight nor be affected by minion abilities. Your vote doesn't count tomorrow."
 },
 {
-  "id": "doomsayer",
+  "id": "predictor",
   "image": "",
   "edition": "custom",
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 5,
-  "otherNightReminder": "The Doomsayer points to a player: if they die tonight, they learn that player's character tonight.",
+  "otherNightReminder": "The Predictor points to a player: if they die tonight, they learn that player's character tonight.",
   "reminders": [""],
   "remindersGlobal": [],
   "setup": 0,
-  "name": "Doomsayer",
+  "name": "Predictor",
   "team": "townsfolk",
   "ability": "Each night*, choose a player. If they die tonight, you learn their character."
 },
