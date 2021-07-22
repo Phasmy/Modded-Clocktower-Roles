@@ -21,7 +21,7 @@
 },
 {
   "id": "detoxer",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/detoxer.png",
   "edition": "custom",
   "firstNight": 20,
   "firstNightReminder": "The Detoxer points to a player, they are no longer poisoned or drunk. Remove the Drunk token from the Drunk.",
@@ -51,7 +51,7 @@
 },
 {
   "id": "recruit",
-  "image": "",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/recruit.png",
   "edition": "custom",
   "firstNight": 0,
   "firstNightReminder": "",
