@@ -128,7 +128,7 @@
   "id": "hitman",
   "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/hitman.png",
   "edition": "custom",
-  "firstNight": 20,
+  "firstNight": 19,
   "firstNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
   "otherNight": 20,
   "otherNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
@@ -145,7 +145,7 @@
   "edition": "custom",
   "firstNight": 18,
   "firstNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
-  "otherNight": 18,
+  "otherNight": 7,
   "otherNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "reminders": ["Poisoned"],
   "remindersGlobal": [],
@@ -153,6 +153,15 @@
   "name": "Sapper",
   "team": "minion",
   "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability and they become poisoned. The Sapper starts knowing one not in-play townsfolk."
+},
+{
+"id":"goblin"
+},
+{
+"id":"witch"
+},
+{
+"id":"assassin"
 },
 {
 "id":"imp"
