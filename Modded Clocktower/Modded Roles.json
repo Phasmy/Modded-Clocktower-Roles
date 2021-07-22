@@ -101,7 +101,7 @@
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 0,
-  "otherNightReminder": ".",
+  "otherNightReminder": "",
   "reminders": [""],
   "remindersGlobal": [],
   "setup": 0,
@@ -132,7 +132,7 @@
   "firstNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
   "otherNight": 33,
   "otherNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
-  "reminders": ["Ignore Vote Today"],
+  "reminders": [""],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Hitman",
@@ -144,7 +144,7 @@
   "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/sapper.png",
   "edition": "custom",
   "firstNight": 18,
-  "firstNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
+  "firstNightReminder": "The Sapper knows one not in-play Townsfolk. If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "otherNight": 7,
   "otherNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "reminders": ["Poisoned"],
@@ -152,7 +152,7 @@
   "setup": 0,
   "name": "Sapper",
   "team": "minion",
-  "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability and they become poisoned. The Sapper starts knowing one not in-play townsfolk."
+  "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability and they become poisoned. The Sapper starts knowing one not in-play Townsfolk."
 },
 {
 "id":"goblin"
