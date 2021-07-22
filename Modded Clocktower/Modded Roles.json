@@ -56,7 +56,7 @@
   "firstNight": 0,
   "firstNightReminder": "",
   "otherNight": 5,
-  "otherNightReminder": "The Predictor points to a player: if they die tonight, they learn that player's character tonight.",
+  "otherNightReminder": "The Doomsayer points to a player: if they die tonight, they learn that player's character tonight.",
   "reminders": [""],
   "remindersGlobal": [],
   "setup": 0,
