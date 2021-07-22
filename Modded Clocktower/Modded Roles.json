@@ -77,7 +77,7 @@
   "setup": 1,
   "name": "Recruit",
   "team": "townsfolk",
-  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia. The Militia learns who the Recruit is that night. [+1 Outsider]"
+  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia and become your alignment. The Militia learns who the Recruit is that night. [+1 Outsider]"
 },
 {
   "id": "red riding hood",
