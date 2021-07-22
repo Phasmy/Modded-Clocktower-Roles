@@ -50,7 +50,7 @@
   "ability": "Once per game at night*, your two alive townsfolk neighbors cannot die tonight nor be affected by minion abilities. Your vote doesn't count tomorrow."
 },
 {
-  "id": "predictor",
+  "id": "doomsayerTF",
   "image": "",
   "edition": "custom",
   "firstNight": 0,
@@ -60,7 +60,7 @@
   "reminders": [""],
   "remindersGlobal": [],
   "setup": 0,
-  "name": "Predictor",
+  "name": "Doomsayer",
   "team": "townsfolk",
   "ability": "Each night*, choose a player. If they die tonight, you learn their character."
 },
@@ -135,7 +135,7 @@
   "reminders": ["Ignore Vote Today"],
   "remindersGlobal": [],
   "setup": 0,
-  "name": "Fearmonger",
+  "name": "Hitman",
   "team": "minion",
   "ability": "Once per game, at night choose a player: guess their good character role, if correct they die otherwise you die."
 },
@@ -144,9 +144,9 @@
   "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/sapper.png",
   "edition": "custom",
   "firstNight": 18,
-  "firstNightReminder": "If the Sapper has not yet used their ability: the sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
+  "firstNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "otherNight": 18,
-  "otherNightReminder": "If the Sapper has not yet used their ability: the sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
+  "otherNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "reminders": ["Poisoned"],
   "remindersGlobal": [],
   "setup": 0,
