@@ -7,7 +7,7 @@
 	    "firstNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
 	    "otherNight": 36,
 	    "otherNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
-	    "reminders": [],
+	    "reminders": ["First", "Second"],
 	    "remindersGlobal": [],
 	    "setup": 0,
 	    "name": "Alphabetizer",
@@ -38,6 +38,21 @@
 	{
 		"id": "ravenkeeper"
 	},
+		{
+  "id": "recruit",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/recruit.png",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 35,
+  "otherNightReminder": "The Recruit points to an alive player: if they are an outsider then mark them with a Militia token. Before the next day, inform them who the Recruit is and that they are Militia.",
+  "reminders": ["Is a Militia"],
+  "remindersGlobal": [],
+  "setup": 1,
+  "name": "Recruit",
+  "team": "townsfolk",
+  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia and become your alignment. The Militia learns who the Recruit is that night. [+1 Outsider]"
+},
 	{
 		"id": "slayer"
 	},
@@ -54,23 +69,11 @@
 		"id": "drunk"
 	},
 	{
-		"id": "recluse"
+		"id": "moonchild"
 	},
 	{
-  "id": "recruit",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/recruit.png",
-  "edition": "custom",
-  "firstNight": 0,
-  "firstNightReminder": "",
-  "otherNight": 35,
-  "otherNightReminder": "The Recruit points to an alive player: if they are an outsider then mark them with a Militia token. Before the next day, inform them who the Recruit is and that they are Militia.",
-  "reminders": ["Is a Militia"],
-  "remindersGlobal": [],
-  "setup": 1,
-  "name": "Recruit",
-  "team": "townsfolk",
-  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia and become your alignment. The Militia learns who the Recruit is that night. [+1 Outsider]"
-},
+		"id": "recluse"
+	},
 	{
 		"id": "saint"
 	},
@@ -81,81 +84,24 @@
 		"id": "scarlet_woman"
 	},
 	{
-		"id": "imp"
+		"id": "spy"
 	},
 	{
-	  "id": "fraud",
-	  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/fraud.png",
-	  "edition": "custom",
-	  "firstNight": 0,
-	  "firstNightReminder": "",
-	  "otherNight": 0,
-	  "otherNightReminder": "",
-	  "reminders": [""],
-	  "remindersGlobal": [],
-	  "setup": 0,
-	  "name": "Fraud",
-	  "team": "outsider",
-	  "ability": "Your vote for good players counts twice."
-},
+		"id": "imp"
+	},
 {
-  "id": "fearmonger",
-  "image": "",
+  "id": "hitman",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/hitman.png",
   "edition": "custom",
-  "firstNight": 19,
-  "firstNightReminder": "Point to an alive player. Their vote does not count tomorrow.",
-  "otherNight": 19,
-  "otherNightReminder": "Point to an alive player. Their vote does not count tomorrow.",
-  "reminders": ["Ignore Vote Today"],
+  "firstNight": 55,
+  "firstNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
+  "otherNight": 33,
+  "otherNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
+  "reminders": ["Ability Used"],
   "remindersGlobal": [],
   "setup": 0,
-  "name": "Fearmonger",
+  "name": "Hitman",
   "team": "minion",
-  "ability": "Each night, choose an alive player(not the same as last night): if good their vote does not count tomorrow."
-},
-{
-  "id": "sapper",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/sapper.png",
-  "edition": "custom",
-  "firstNight": 18,
-  "firstNightReminder": "The Sapper knows one not in-play Townsfolk. If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
-  "otherNight": 7,
-  "otherNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
-  "reminders": ["Poisoned"],
-  "remindersGlobal": [],
-  "setup": 0,
-  "name": "Sapper",
-  "team": "minion",
-  "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability and they become poisoned. The Sapper starts knowing one not in-play Townsfolk."
-},
-{
-  "id": "detoxer",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/detoxer.png",
-  "edition": "custom",
-  "firstNight": 20,
-  "firstNightReminder": "The Detoxer points to a player, they are no longer poisoned or drunk. Remove the Drunk token from the Drunk.",
-  "otherNight": 38,
-  "otherNightReminder": "The Detoxer points to a player, they are no longer poisoned or drunk. Remove the Drunk token from the Drunk.",
-  "reminders": [],
-  "remindersGlobal": [],
-  "setup": 0,
-  "name": "Detoxer",
-  "team": "townsfolk",
-  "ability": "Each night, choose a player: they are no longer drunk or poisoned."
-},
-{
-  "id": "red riding hood",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/Red%20Riding%20Hood.png",
-  "edition": "custom",
-  "firstNight": 0,
-  "firstNightReminder": "",
-  "otherNight": 0,
-  "otherNightReminder": "",
-  "reminders": [],
-  "remindersGlobal": [],
-  "setup": 0,
-  "name": "Red Riding Hood",
-  "team": "townsfolk",
-  "ability": "Minion abilities do not work on you."
+  "ability": "Once per game, at night choose a player: guess their good character role, if correct they die otherwise you die."
 }
 ]
