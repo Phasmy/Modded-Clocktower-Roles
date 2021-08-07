@@ -1,22 +1,22 @@
 [
 	{
-	    "id": "alphabetizer",
-	    "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/Alphabetizer.png",
-	    "edition": "custom",
-	    "firstNight": 33,
-	    "firstNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
-	    "otherNight": 36,
-	    "otherNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
-	    "reminders": ["First", "Second"],
-	    "remindersGlobal": [],
-	    "setup": 0,
-	    "name": "Alphabetizer",
-	    "team": "townsfolk",
-	    "ability": "Each night choose 2 players, you learn which comes first alphabetically."
-	},
-	{
 		"id": "chef"
 	},
+	{
+  "id": "doomsayerTF",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/doomsayerTF.png",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 9,
+  "otherNightReminder": "The Doomsayer points to a player: if they die tonight, they learn that player's character tonight.",
+  "reminders": [""],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Doomsayer",
+  "team": "townsfolk",
+  "ability": "Each night*, choose a player. If they die tonight, you learn their character."
+},
 	{
 		"id": "empath"
 	},
@@ -38,21 +38,9 @@
 	{
 		"id": "ravenkeeper"
 	},
-		{
-  "id": "recruit",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/recruit.png",
-  "edition": "custom",
-  "firstNight": 0,
-  "firstNightReminder": "",
-  "otherNight": 35,
-  "otherNightReminder": "The Recruit points to an alive player: if they are an outsider then mark them with a Militia token. Before the next day, inform them who the Recruit is and that they are Militia.",
-  "reminders": ["Is a Militia"],
-  "remindersGlobal": [],
-  "setup": 1,
-  "name": "Recruit",
-  "team": "townsfolk",
-  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia and become your alignment. The Militia learns who the Recruit is that night. [+1 Outsider]"
-},
+	{
+		"id": "soldier"
+	},
 	{
 		"id": "slayer"
 	},
@@ -78,6 +66,9 @@
 		"id": "saint"
 	},
 	{
+		"id": "baron"
+	},
+	{
 		"id": "poisoner"
 	},
 	{
@@ -88,20 +79,5 @@
 	},
 	{
 		"id": "imp"
-	},
-{
-  "id": "hitman",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/hitman.png",
-  "edition": "custom",
-  "firstNight": 55,
-  "firstNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
-  "otherNight": 33,
-  "otherNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
-  "reminders": ["Ability Used"],
-  "remindersGlobal": [],
-  "setup": 0,
-  "name": "Hitman",
-  "team": "minion",
-  "ability": "Once per game, at night choose a player: guess their good character role, if correct they die otherwise you die."
-}
+	}
 ]
