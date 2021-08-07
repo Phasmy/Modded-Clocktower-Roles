@@ -12,7 +12,7 @@
   "firstNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
   "otherNight": 36,
   "otherNightReminder": "The Alphabetizer points to two players. Point to the one whose name comes first alphabetically.",
-  "reminders": [],
+  "reminders": ["First", "Second"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Alphabetizer",
@@ -42,7 +42,7 @@
   "firstNightReminder": "",
   "otherNight": 1,
   "otherNightReminder": "If the Night Guard has not yet used their ability: ask if they want to use it. If they nod 'yes', set a reminder token that their vote doesn't count tomorrow. ",
-  "reminders": ["Vote not counted today"],
+  "reminders": ["Vote not counted today", "Ability Used"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Night Guard",
@@ -63,6 +63,21 @@
   "name": "Doomsayer",
   "team": "townsfolk",
   "ability": "Each night*, choose a player. If they die tonight, you learn their character."
+},
+{
+  "id": "necromancer",
+  "image": "",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 10,
+  "otherNightReminder": "If the Necromancer has not yet used their ability: the Necromancer either shakes their head no or they point to a player. That player is returned to life until the next night.",
+  "reminders": ["Ability Used", "Alive"],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Necromancer",
+  "team": "townsfolk",
+  "ability": "Once per game, at night* choose a dead player, they return to life until dusk (before the next night)."
 },
 {
   "id": "recruit",
@@ -107,7 +122,7 @@
   "setup": 0,
   "name": "Fraud",
   "team": "outsider",
-  "ability": "Your vote for good players counts twice."
+  "ability": "Your vote for good players may count twice."
 },
 {
   "id": "fearmonger",
@@ -132,7 +147,7 @@
   "firstNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
   "otherNight": 33,
   "otherNightReminder": "If the Hitman has not yet used their ability: the Hitman either shakes their head 'no' or they point to a player and guess a good character they are. If correct, that player dies otherwise the Hitman dies.",
-  "reminders": [""],
+  "reminders": ["Ability Used"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Hitman",
@@ -147,12 +162,27 @@
   "firstNightReminder": "The Sapper knows one not in-play Townsfolk. If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
   "otherNight": 7,
   "otherNightReminder": "If the Sapper has not yet used their ability: the Sapper either shakes their head 'no' or they point to a player and guess their role. If correct, that player is now poisoned.",
-  "reminders": ["Poisoned"],
+  "reminders": ["Poisoned", "Ability Used"],
   "remindersGlobal": [],
   "setup": 0,
   "name": "Sapper",
   "team": "minion",
-  "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability and they become poisoned. The Sapper starts knowing one not in-play Townsfolk."
+  "ability": "Once per game, at night choose an alive player: guess their role, if correct you gain their ability, they become poisoned, and you register as good and that role. The Sapper starts knowing one not in-play Townsfolk."
+},
+{
+  "id": "omen",
+  "image": "https://github.com/AWConant/custom-botc-assets/blob/main/LSE/icon/omen.png?raw=true",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["?"],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Omen",
+  "team": "minion",
+  "ability": "Things you are \"mad\" about might come true."
 },
 {
 "id":"goblin"
@@ -166,4 +196,4 @@
 {
 "id":"imp"
 },
-{"id":"chef"},{"id":"empath"},{"id":"fortune_teller"},{"id":"investigator"},{"id":"monk"},{"id":"ravenkeeper"},{"id":"slayer"},{"id":"undertaker"},{"id":"washerwoman"},{"id":"balloonist"},{"id":"juggler"},{"id":"gambler"},{"id":"flowergirl"},{"id":"butler"},{"id":"acrobat"},{"id":"poisoner"},{"id":"scarlet_woman"},{"id":"vigormortis"},{"id":"no_dashii"},{"id":"fang_gu"},{"id":"pukka"}]
+{"id":"preacher"},{"id":"empath"},{"id":"chambermaid"},{"id":"investigator"},{"id":"monk"},{"id":"ravenkeeper"},{"id":"professor"},{"id":"lycanthrope"},{"id":"snake_charmer"},{"id":"sailor"},{"id":"juggler"},{"id":"gambler"},{"id":"flowergirl"},{"id":"butler"},{"id":"acrobat"},{"id":"poisoner"},{"id":"general"},{"id":"vigormortis"},{"id":"no_dashii"},{"id":"fang_gu"},{"id":"pukka"}]
