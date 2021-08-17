@@ -24,9 +24,6 @@
 		"id": "fortune_teller"
 	},
 	{
-		"id": "investigator"
-	},
-	{
 		"id": "librarian"
 	},
 	{
@@ -38,6 +35,21 @@
 	{
 		"id": "ravenkeeper"
 	},
+	{
+  "id": "recruit",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/recruit.png",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 35,
+  "otherNightReminder": "The Recruit points to an alive player: if they are an outsider then mark them with a Militia token. Before the next day, inform them who the Recruit is and that they are Militia.",
+  "reminders": ["Is a Militia"],
+  "remindersGlobal": [],
+  "setup": 1,
+  "name": "Recruit",
+  "team": "townsfolk",
+  "ability": "Each night*, choose an alive player: if they are an outsider, they become a Militia and become your alignment. The Militia learns who the Recruit is that night. [+1 Outsider]"
+},
 	{
 		"id": "soldier"
 	},
@@ -57,7 +69,7 @@
 		"id": "drunk"
 	},
 	{
-		"id": "moonchild"
+		"id": "sweetheart"
 	},
 	{
 		"id": "recluse"
