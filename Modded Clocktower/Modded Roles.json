@@ -201,7 +201,7 @@
 },
 {
   "id": "temptress",
-  "image": "https://github.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/temptress.png?raw=true",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/temptress.png",
   "edition": "custom",
   "firstNight": 0,
   "firstNightReminder": "",
