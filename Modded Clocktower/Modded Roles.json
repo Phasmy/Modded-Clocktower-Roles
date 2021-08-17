@@ -110,6 +110,21 @@
   "ability": "Minion abilities do not work on you."
 },
 {
+  "id": "unicorn",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/unicorn.png",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": [],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Unicorn",
+  "team": "townsfolk",
+  "ability": "If killed by the demon, they are poisoned until tomorrow night."
+},
+{
   "id": "fraud",
   "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/fraud.png",
   "edition": "custom",
@@ -183,6 +198,21 @@
   "name": "Omen",
   "team": "minion",
   "ability": "Things you are \"mad\" about might come true."
+},
+{
+  "id": "temptress",
+  "image": "https://github.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/temptress.png?raw=true",
+  "edition": "custom",
+  "firstNight": 0,
+  "firstNightReminder": "",
+  "otherNight": 0,
+  "otherNightReminder": "",
+  "reminders": ["?"],
+  "remindersGlobal": [],
+  "setup": 0,
+  "name": "Omen",
+  "team": "minion",
+  "ability": "If you die, one good player becomes evil."
 },
 {
 "id":"goblin"
