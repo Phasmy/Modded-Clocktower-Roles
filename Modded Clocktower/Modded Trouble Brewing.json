@@ -3,19 +3,19 @@
 		"id": "chef"
 	},
 	{
-  "id": "doomsayerTF",
-  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/doomsayerTF.png",
+  "id": "detoxer",
+  "image": "https://raw.githubusercontent.com/Phasmy/Modded-Clocktower-Roles/main/Modded%20Clocktower/Icons/detoxer.png",
   "edition": "custom",
-  "firstNight": 0,
-  "firstNightReminder": "",
-  "otherNight": 9,
-  "otherNightReminder": "The Doomsayer points to a player: if they die tonight, they learn that player's character tonight.",
-  "reminders": [""],
+  "firstNight": 20,
+  "firstNightReminder": "The Detoxer points to a player, they are no longer poisoned or drunk. Remove the Drunk token from the Drunk.",
+  "otherNight": 38,
+  "otherNightReminder": "The Detoxer points to a player, they are no longer poisoned or drunk. Remove the Drunk token from the Drunk.",
+  "reminders": [],
   "remindersGlobal": [],
   "setup": 0,
-  "name": "Doomsayer",
+  "name": "Detoxer",
   "team": "townsfolk",
-  "ability": "Each night*, choose a player. If they die tonight, you learn their character."
+  "ability": "Each night, choose a player: they are no longer drunk or poisoned."
 },
 	{
 		"id": "empath"
@@ -66,10 +66,10 @@
 		"id": "washerwoman"
 	},
 	{
-		"id": "drunk"
+		"id": "butler"
 	},
 	{
-		"id": "sweetheart"
+		"id": "drunk"
 	},
 	{
 		"id": "recluse"
@@ -91,5 +91,8 @@
 	},
 	{
 		"id": "imp"
+	},
+	{
+		"id": "no_dashii"
 	}
 ]
