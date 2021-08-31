@@ -27,6 +27,9 @@
 		"id": "librarian"
 	},
 	{
+		"id": "mathematician"
+	},
+	{
 		"id": "monk"
 	},
 	{
@@ -54,16 +57,13 @@
 		"id": "soldier"
 	},
 	{
-		"id": "slayer"
+		"id": "savant"
 	},
 	{
 		"id": "undertaker"
 	},
 	{
 		"id": "virgin"
-	},
-	{
-		"id": "washerwoman"
 	},
 	{
 		"id": "butler"
